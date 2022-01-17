@@ -6,6 +6,7 @@ Table of Contents:
 
 * [Developer Articles](#developer-articles)
 * [Administrator Articles](#administrator-articles)
+* [User Articles](#user-articles)
 * [Documentation Guidelines](#documentation-guidelines)
 
 ## Developer Articles
@@ -54,6 +55,15 @@ I wrote all the [Installation and Upgrade](https://learn.liferay.com/dxp/latest/
     * [Maintaining Clustered Installations](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/maintaining-a-liferay-installation/maintaining-clustered-installations.html)
 * [Upgrading Liferay](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/upgrading-liferay.html)
 * [Reference](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/upgrading-liferay/reference.html)
+
+## User Articles
+
+Here are some user articles I wrote for Liferay DXP's Collaboration applications:
+
+* [Introduction to Collaboration](https://help.liferay.com/hc/en-us/articles/360017876112-Introduction-to-Collaboration)
+* [Publishing Blogs](https://help.liferay.com/hc/en-us/articles/360018155771-Publishing-Blogs)
+* [Adding Files to the Document Library](https://help.liferay.com/hc/en-us/articles/360017876152-Adding-Files-to-a-Document-Library)
+* [Working Together with the Wiki](https://help.liferay.com/hc/en-us/articles/360018155811-Working-Together-with-the-Wiki)
 
 ## Documentation Guidelines
 
