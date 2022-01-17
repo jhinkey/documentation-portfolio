@@ -76,7 +76,7 @@ These internal documents I authored provide instruction on developing tutuorials
 
 ## Contribution Statistics
 
-I contributed over 28% of the Liferay DXP documentation commits (2,461 of 8,782 commits) to the [`liferay-learn`](https://github.com/liferay/liferay-learn) repository.
+I contributed over 28% of the [`liferay-learn`](https://github.com/liferay/liferay-learn) repository Liferay DXP documentation commits (2,461 of the 8,782 total commits).
 
 > Note that `d2021402cd7dae764436c9d4b1563a5fdac0bb13` was the last docs commit I authored at Liferay. See <https://github.com/liferay/liferay-learn/commit/d2021402cd7dae764436c9d4b1563a5fdac0bb13>.
 
