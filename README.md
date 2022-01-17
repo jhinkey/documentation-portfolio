@@ -2,6 +2,12 @@
 
 Here are links to articles and sample code I've authored for a wide range of audiences including software users, administrators, developers, content managers, and hobbyists.
 
+Table of Contents:
+
+* [Developer Articles](#developer-articles)
+* [Administrator Articles](#administrator-articles)
+* [Documentation Guidelines](#documentation-guidelines)
+
 ## Developer Articles
 
 Here are some areas I've documented on Liferay development.
@@ -13,7 +19,7 @@ Here are some areas I've documented on Liferay development.
     * [APIs as OSGi Services](https://learn.liferay.com/dxp/latest/en/liferay-internals/fundamentals/apis-as-osgi-services.html)
     * [Using an OSGi Service](https://learn.liferay.com/dxp/latest/en/liferay-internals/fundamentals/using-an-osgi-service.html)
 
-* Application Development - Here I documented key Liferay DXP/Portal Java web application development approaches in the following sections.
+* [Developing a Java Web Application](https://learn.liferay.com/dxp/latest/en/building-applications/developing-a-java-web-application.html) - In this section, I documented key Liferay DXP/Portal Java web application development approaches. Here are some of the approaches I wrote about.
     * [MVC Portlet](https://learn.liferay.com/dxp/latest/en/building-applications/developing-a-java-web-application/using-mvc.html). Here are the leading articles I wrote on MVC Portlet development:
         * [Using a JSP and MVC Portlet](https://learn.liferay.com/dxp/latest/en/building-applications/developing-a-java-web-application/using-mvc/using-a-jsp-and-mvc-portlet.html)
         * [Rendering Views with MVC Portlet](https://learn.liferay.com/dxp/latest/en/building-applications/developing-a-java-web-application/using-mvc/rendering-views-with-mvc-portlet.html)
@@ -48,3 +54,11 @@ I wrote all the [Installation and Upgrade](https://learn.liferay.com/dxp/latest/
     * [Maintaining Clustered Installations](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/maintaining-a-liferay-installation/maintaining-clustered-installations.html)
 * [Upgrading Liferay](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/upgrading-liferay.html)
 * [Reference](https://learn.liferay.com/dxp/latest/en/installation-and-upgrades/upgrading-liferay/reference.html)
+
+## Documentation Guidelines
+
+These internal documents I authored provide instruction on developing tutuorials and sample code, and linking the product to published articles.
+
+* [Tutorial Code Guidelines](https://github.com/jhinkey/liferay-learn/blob/master/readme/TUTORIAL_CODE_GUIDELINES.md) - Describes how to create a Liferay development project.
+* [REST API Guidelines](https://github.com/jhinkey/liferay-learn/blob/master/readme/REST_API_PROJECT_GUIDELINES.md) - Demonstrates how to create scripts and classes that invoke REST API services.
+* [Adding Documentation Links to the Liferay UI](https://github.com/liferay/liferay-portal/blob/master/learn-resources/README.markdown) - This guide shows technical writers how to provide links to official documentation and shows developers how to use the links in the Liferay UI's JSP code.
