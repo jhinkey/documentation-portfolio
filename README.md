@@ -76,29 +76,77 @@ These internal documents I authored provide instruction on developing tutuorials
 
 ## Contribution Statistics
 
-I contributed over 28% of the [`liferay-learn`](https://github.com/liferay/liferay-learn) repository Liferay DXP documentation commits (2,461 of the 8,782 total commits).
+I contributed articles and code examples to the [`liferay-learn`](https://github.com/liferay/liferay-learn) repository for Liferay DXP/Portal 7.2+ and the [`liferay-docs`](https://github.com/liferay/liferay-docs) repository for Liferay DXP/Portal versions 6.0 through 7.2.
 
-> Note that `d2021402cd7dae764436c9d4b1563a5fdac0bb13` was the last docs commit I authored at Liferay. See <https://github.com/liferay/liferay-learn/commit/d2021402cd7dae764436c9d4b1563a5fdac0bb13>.
+### Contributions to the `liferay-learn` Repository
 
-Here are the supporting calculations:
+I contributed over 28% of the [`liferay-learn`](https://github.com/liferay/liferay-learn) repository Liferay DXP documentation commits.
 
-```bash
-$ cd liferay-learn\docs\dxp\latest\en
-$ git rev-list --count d2021402cd7dae764436c9d4b1563a5fdac0bb13
-8782
-```
+> Note that `d2021402cd7dae764436c9d4b1563a5fdac0bb13` was the last `liferay-learn` docs commit I authored at Liferay. See <https://github.com/liferay/liferay-learn/commit/d2021402cd7dae764436c9d4b1563a5fdac0bb13>.
 
-**Total commits:** `8782`
+Calculations:
 
-```
-$ git shortlog -sn --all d2021402cd7dae764436c9d4b1563a5fdac0bb13 | grep -i hinkey
-  1250  jhinkey
-   667  James Hinkey
-   544  Jim Hinkey
-```
+1. Go to the DXP docs folder:
 
-**Total commits by me:** `1250 + 667 + 544 = 2461`
+    ```bash
+    $ cd liferay-learn\docs\dxp\latest\en
+    ```
 
-**Percentage of commits by me:** `2461 / 8782 = 28%`
+1. Count the total commits up to and including my last commit.
+
+    ```bash
+    $ git rev-list --count d2021402cd7dae764436c9d4b1563a5fdac0bb13
+    8782
+    ```
+
+1. Count my commits.
+
+    ```bash
+    $ git shortlog -sn --all d2021402cd7dae764436c9d4b1563a5fdac0bb13 | grep -i hinkey
+    1250  jhinkey
+    667  James Hinkey
+    544  Jim Hinkey
+    ```
+
+    Total `liferay-learn` commits by me: `1250 + 667 + 544 = 2461`
+
+1. Calculate the percentage of commits by me: `2461 / 8782 = .28 = 28%`
 
 Here is a listing of my commits: <https://github.com/liferay/liferay-learn/commits/master?author=james.hinkey@liferay.com>
+
+### Contributions to the `liferay-docs` Repository
+
+I contributed over 23% of the [`liferay-docs`](https://github.com/liferay/liferay-docs) repository Liferay DXP/Portal 7.2 (`master`) documentation commits.
+
+> Note that `7144674c38be1d1ecdad404f49c157f9064de25c` was the last `liferay-docs` commit I authored at Liferay. See <https://github.com/liferay/liferay-docs/commit/7144674c38be1d1ecdad404f49c157f9064de25c#diff-dbd3a49d0d906b4ed9216b73330d2fb080ef2f758c12f3885068222e5e17151c>.
+
+
+
+Calculations:
+
+1. Go to the DXP docs folder:
+
+    ```bash
+    $ cd liferay-docs/en/
+    ```
+
+1. Count the total commits up to and including my last commit.
+
+    ```bash
+    $ git rev-list --count 7144674c38be1d1ecdad404f49c157f9064de25c
+    20910
+    ```
+
+1. Count my commits.
+
+    ```bash
+    $ git shortlog -sn --all d2021402cd7dae764436c9d4b1563a5fdac0bb13 | grep -i hinkey
+
+    4797  Jim Hinkey
+    146  James Hinkey
+        46  jhinkey
+    ```
+
+    Total `liferay-docs` commits by me: 4989
+
+1. Calculate the percentage of commits by me: `4989 / 20910 = .23 = 23%`
